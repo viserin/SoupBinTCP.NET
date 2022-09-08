@@ -10,9 +10,10 @@ namespace Server
             ulong requestedSequenceNumber = 0)
         {
             // TODO fix this
+            //return new LoginStatus(false, RejectionReason.NotAuthorised);
             Console.WriteLine($"OnLoginRequest {requestedSequenceNumber}");
             return new LoginStatus(true);
-            //return new LoginStatus(false, RejectionReason.NotAuthorised);
+
         }
 
         public async Task OnServerListening()
@@ -40,7 +41,7 @@ namespace Server
         public async Task OnMessage(byte[] message, string channelId)
         {
             //throw new System.NotImplementedException();
-            Console.WriteLine($"OnMessage {message.Length}");
+            Console.WriteLine($"OnMessage {message.Length} : {System.Text.Encoding.UTF8.GetString(message)} channelId: {channelId}");
             await Task.FromResult(false);
         }
 

@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-#
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoupBinTCP.NET", "SoupBinTCP.NET\SoupBinTCP.NET.csproj", "{7D6E225C-DC64-4D4A-BA80-A919F40805AA}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32422.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoupBinTCP.NET", "SoupBinTCP.NET\SoupBinTCP.NET.csproj", "{7D6E225C-DC64-4D4A-BA80-A919F40805AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{3FBF5B91-ADB2-48C2-864B-3DCB6029ADF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{3FBF5B91-ADB2-48C2-864B-3DCB6029ADF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "examples\Client\Client.csproj", "{442C47B9-041A-4F67-9EA7-DC9E04EDBB5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "examples\Client\Client.csproj", "{442C47B9-041A-4F67-9EA7-DC9E04EDBB5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "examples\Server\Server.csproj", "{D5C3EDA9-4730-4A00-933C-A1FCABA0C8BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "examples\Server\Server.csproj", "{D5C3EDA9-4730-4A00-933C-A1FCABA0C8BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,5 +33,11 @@ Global
 		{D5C3EDA9-4730-4A00-933C-A1FCABA0C8BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5C3EDA9-4730-4A00-933C-A1FCABA0C8BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5C3EDA9-4730-4A00-933C-A1FCABA0C8BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD34A41E-F4DF-4BD9-9B7B-1E150B0F5DDF}
 	EndGlobalSection
 EndGlobal
